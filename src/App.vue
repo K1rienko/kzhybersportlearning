@@ -1,6 +1,6 @@
 <template>
 
-  <!-- Создаем навбар приложения -->
+  <!-- Добавляем навбар приложения -->
   <div id="Navbar">
     <NavbarApp />
   </div>
@@ -10,14 +10,23 @@
     <SportDisciplines />
   </div>
 
-  <!-- Добавляем Роуты -->
+  <!-- Добавялем компонент О Нас в приложение -->
+  <div id="About">
+    <AboutUs />
+  </div>
+
+  <!-- Добавляем Роуты в приложение -->
   <!-- <router-view></router-view> -->
+
+  <!-- Добавляем disqus в приложение -->
+  <div id="Disqus">
+    <DisQus />
+  </div>
 
   <!-- Создаем footer приложения -->
   <div id="Footer">
     <FooterApp />
   </div>
-  
 
 
 </template>
@@ -26,21 +35,18 @@
 import SportDisciplines from './components/SportDisciplines.vue';
 import NavbarApp from './components/NavbarApp.vue';
 import FooterApp from './components/FooterApp.vue';
+import AboutUs from './components/AboutUs.vue';
+import DisQus from './components/DisQus.vue';
 
 export default {
   name: 'App',
   components: {
     SportDisciplines,
     NavbarApp,
-    FooterApp
+    FooterApp,
+    AboutUs,
+    DisQus
   }
-  // // Добавляем disqus в проект
-  // mounted() {
-  //   let s = document.createElement('script');
-  //   s.src = 'https://your-disqus-url.disqus.com/embed.js';
-  //   s.setAttribute('data-timestamp', +new Date());
-  //   (document.head || document.body).appendChild(s);
-  // }
 }
 </script>
 
@@ -53,8 +59,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 } */
-*{
+* {
   /* background-color: rgb(17, 17, 81); */
 }
-
 </style>

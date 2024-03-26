@@ -3,9 +3,9 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
+                    <img src="../assets/Logo.png" alt="Logo" width="90" height="95"
                         class="d-inline-block align-text-top">
-                    CYBERSPORT ACADEMY
+                    <!-- CYBERSPORT ACADEMY -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -34,15 +34,11 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Дисциплина Counter-Strike 2</a></li>
-                                <li><a class="dropdown-item" href="#">Дисциплина Rainbow Six Siege</a></li>
-                                <!-- <li><hr class="dropdown-divider"></li> -->
                                 <li><a class="dropdown-item" href="#">Дисциплина Dota 2</a></li>
+                                <li><a class="dropdown-item" href="#">Дисциплина Rainbow Six Siege</a></li>
                                 <li><a class="dropdown-item" href="#">Дисциплина Valorant</a></li>
                             </ul>
                         </li>
-                        <!-- <li class="nav-item">
-                                    <a class="nav-link disabled">Отключенная</a>
-                                </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="#">Авторизация</a>
                         </li>

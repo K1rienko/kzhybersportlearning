@@ -47,7 +47,7 @@
                             <!-- Grid column -->
                             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                                 <!-- Content -->
-                                <h6 class="text-uppercase fw-bold">Cybersport Academy</h6>
+                                <h6 class="text-uppercase fw-bold">X-GAMES</h6>
                                 <hr class="mb-4 mt-0 d-inline-block mx-auto"
                                     style="width: 60px; background-color: #7c4dff; height: 2px" />
                                 <p>
@@ -119,7 +119,7 @@
 
                 <!-- Copyright -->
                 <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-                    © 2024 Copyright: Cybersport Academy
+                    © 2024 Copyright: X-GAMES
                 </div>
                 <!-- Copyright -->
             </footer>
